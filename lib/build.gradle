@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+dependencies {
+    compileOnly 'com.android.tools.lint:lint-api:26.1.2'
+    compileOnly 'com.android.tools.lint:lint-checks:26.1.2'
+}
+
+sourceCompatibility = "1.8" // or 1.7
+targetCompatibility = "1.8" // or 1.7
+
+jar {
+    baseName 'lintregistry.jfyg.lib'
+    version '1.0'
+
+    manifest {
+        attributes 'Manifest-Version': 1.0
+        attributes('Lint-Registry': 'lintregistry.jfyg.lib.CustomLintRegistry')
+    }
+}
