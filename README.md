@@ -1,4 +1,4 @@
 # custom-lint-registry
 
-A simple and UPDATED example of creating/using Custom Lints.
+A (simple && updated) example of (creating && using) custom lints with Android in 2018.
 
