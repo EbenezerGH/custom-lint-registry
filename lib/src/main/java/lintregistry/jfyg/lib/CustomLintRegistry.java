@@ -9,10 +9,6 @@ import java.util.Collections;
 import java.util.List;
 public class CustomLintRegistry extends IssueRegistry {
 
-    public CustomLintRegistry() {
-
-    }
-
     @NotNull
     @Override
     public List<Issue> getIssues() {
